@@ -1,72 +1,70 @@
 <div align="center">
 
-# personal-taste
+# personal-taste · 复古未来主义前端品味
 
-**Retro-futurism, distilled into a frontend taste — for an AI.**
-
-`English` · [简体中文](./README.zh.md)
+`简体中文`
 
 </div>
 
-![Dark retro-futurism sample landing page](./assets/sample-hero.png)
+![深色复古未来主义样例落地页](./assets/sample-hero.png)
 
-> Give an AI **my** taste, not the average of everyone's.
+> 给 AI 一套**我的**审美，而不是所有人的平均审美。
 
-This is an Agent Skill for [Claude Code](https://claude.com/claude-code): a portable file of design rules. Whenever an AI builds or redesigns a frontend for me, it follows this taste automatically — instead of collapsing into the templated, purple-gradient "AI slop" that every model drifts toward by default.
+这是一个 [Claude Code](https://claude.com/claude-code) 的 **Agent Skill**：一份可移植的设计规则文件。当 AI 为我生成或重做任何前端界面时，它会自动按这套品味来，而不是收敛成千篇一律、紫渐变居中 hero 的“AI 味儿”。
 
-## Design philosophy — retro-futurism
+## 设计哲学：复古未来主义
 
-Imagine the future using the materials and craft of the 20th century. Three pillars:
+用 20 世纪的材料与手艺，表达对未来的想象。三根支柱：
 
-- **Monumentality** — heavy, grounded, vertical grandeur.
-- **Analog materials** — texture comes from concrete, ink, halftone, film, paper; never from digital gloss.
-- **A constructed world** — everything is designed and translated (illustration, silhouette, monochrome wash) before it earns a place on screen; unprocessed "reality" stays out.
+- **纪念碑性**：庄重、厚重、压得住，竖向的崇高感。
+- **模拟材料**：质感来自混凝土、油墨、网点、胶片、纸张的密度，绝不来自数码光泽。
+- **构建的世界**：一切元素经过设计转译，插画、剪影、单色 wash 后才许入画；未经处理的“真实”不许进来。
 
-One phrase runs through all of it: **one light in the dark.** A page gets exactly one glowing focal point — or one saturated accent — and everything else recedes. Its sworn enemy is the opposite: the "everywhere-glowing" sci-fi-dashboard look.
+贯穿始终的一句话：**黑暗里一道光**。全页只许一个发光焦点，或唯一一抹饱和色，其余一切退后。它的反面是“黑暗里处处是光”的科技大屏风。
 
-## What it governs
+## 它管什么
 
-| Aspect | In one line |
-|---|---|
-| Color | No color beats bad color; when used, one hue floods the page like ambient light. Black is structure, white is light. |
-| Light | A single, scarce light source is the focal point; glow is allowed but must be rare. |
-| Layout | Big masses, silhouette-first, asymmetric; right angles, only sculptural curves. |
-| Texture | Matte by default — aged print, halftone dots, film grain, line engraving. |
-| Type | Two poles — heavy display (loud) and copperplate / cold serif (ornate). The enemy is neutral sans as the lead. |
-| Imagery | No documentary photos; only illustration, sketch, or heavily-treated images. |
-| Motion | The Tarantino rule — stillness as default, motion decisive. No floating easing. |
+| 维度 | 一句话 |
+| --- | --- |
+| 色彩 | 无色优于庸色；用色则让一种色相像环境光淹没整页，黑是结构、白是光。 |
+| 光 | 唯一稀缺光源即视觉重心；辉光可以用，但必须稀缺。 |
+| 布局 | 大块面、剪影成立、不对称；直角为主，只接受雕塑感大曲线。 |
+| 材质 | 哑光为本；做旧印刷、半调网点、胶片颗粒、雕版线刻。 |
+| 字体 | 两极并立：粗壮 display 与铜版 / 冷面衬线；公敌是中性无衬线当主角。 |
+| 图像 | 拒绝纪实实拍；插画、素描、重度处理摄影才许入画。 |
+| 动效 | 昆汀法则：静为常态，动则决绝；禁一切漂浮缓动。 |
 
-Full rules in [`SKILL.md`](./SKILL.md).
+完整规则见 [`SKILL.md`](./SKILL.md)。
 
-![Nude-concrete craft and type specimen](./assets/sample-craft.png)
+![裸色混凝土工艺与字体样张](./assets/sample-craft.png)
 
-## How to use
+## 怎么用
 
-**As a Claude Code skill:**
+作为 Claude Code skill：
 
 ```bash
 git clone https://github.com/bot-Ethan/personal-taste-skill.git ~/.claude/skills/personal-taste
 ```
 
-Claude triggers it automatically when building frontends.
+之后让 Claude 做前端时会自动触发。
 
-**With any other AI:** paste the contents of [`SKILL.md`](./SKILL.md) into the conversation.
+用于其他 AI：直接把 [`SKILL.md`](./SKILL.md) 的内容贴进对话即可。
 
-## Where it came from
+## 它是怎么来的
 
-This taste wasn't written from thin air — it was **distilled** from cross-medium references:
+这套品味不是凭空写的，而是从一批跨媒介素材里蒸馏出来的：
 
-- **Architecture** — Tadao Ando's Church of the Light, Peter Zumthor's new LACMA
-- **Comics** — 20th-century Batman (BTAS / Dark Deco), the aged print of old Transformers covers
-- **Film** — the complete works of Quentin Tarantino, *American Psycho*
-- **Album art** — A$AP Rocky's film-grain retro, Drake's copperplate wordmarks
+- **建筑**：安藤忠雄的光之教堂、彼得·卒姆托的 LACMA 新馆。
+- **漫画**：20 世纪的老蝙蝠侠（BTAS / Dark Deco）、变形金刚的旧印刷封面。
+- **电影**：昆汀·塔伦蒂诺全系、《美国精神病人》。
+- **专辑封面**：A$AP Rocky 的胶片复古、Drake 的铜版字标。
 
-Distilling across media keeps the result distinctive — it won't "look like some website."
+跨媒介的好处是：提炼出的风格更独特，不会“像某个网站”。
 
-## Acknowledgements
+## 致谢
 
-Inspired in spirit and structure by [taste-skill](https://github.com/Leonxlnx/taste-skill), an open-source frontend skill that fights "AI slop." This repo is its *personal* fork: not aiming for universally good taste, only for **mine**.
+灵感与结构受 [taste-skill](https://github.com/Leonxlnx/taste-skill) 启发。这个仓库是它的个人化分支：不追求通用的好品味，只追求**我的**品味。
 
-## License
+## 许可证
 
 [MIT](./LICENSE)
